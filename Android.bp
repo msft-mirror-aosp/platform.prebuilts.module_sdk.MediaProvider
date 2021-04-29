@@ -1,0 +1,33 @@
+
+
+java_sdk_library_import {
+    name: "framework-mediaprovider",
+    owner: "google",
+    prefer: false,
+    shared_library: false,
+    apex_available: [
+        "com.android.mediaprovider",
+        "test_com.android.mediaprovider",
+    ],
+    public: {
+        jars: ["current/public/framework-mediaprovider.jar"],
+        stub_srcs: ["current/public/framework-mediaprovider.srcjar"],
+        current_api: "current/public/framework-mediaprovider.txt",
+        removed_api: "current/public/framework-mediaprovider-removed.txt",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["current/system/framework-mediaprovider.jar"],
+        stub_srcs: ["current/system/framework-mediaprovider.srcjar"],
+        current_api: "current/system/framework-mediaprovider.txt",
+        removed_api: "current/system/framework-mediaprovider-removed.txt",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["current/module_lib/framework-mediaprovider.jar"],
+        stub_srcs: ["current/module_lib/framework-mediaprovider.srcjar"],
+        current_api: "current/module_lib/framework-mediaprovider.txt",
+        removed_api: "current/module_lib/framework-mediaprovider-removed.txt",
+        sdk_version: "module_current",
+    },
+}
