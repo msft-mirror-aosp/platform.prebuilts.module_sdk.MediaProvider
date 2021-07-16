@@ -6,6 +6,40 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+prebuilt_bootclasspath_fragment {
+    name: "mediaprovider-module-sdk_com.android.mediaprovider-bootclasspath-fragment@current",
+    sdk_member_name: "com.android.mediaprovider-bootclasspath-fragment",
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.mediaprovider"],
+    licenses: ["mediaprovider-module-sdk_packages_providers_MediaProvider_license@current"],
+    contents: ["mediaprovider-module-sdk_framework-mediaprovider@current"],
+    hidden_api: {
+        max_target_o_low_priority: ["hiddenapi/hiddenapi-max-target-o-low-priority.txt"],
+        stub_flags: "hiddenapi/stub-flags.csv",
+        annotation_flags: "hiddenapi/annotation-flags.csv",
+        metadata: "hiddenapi/metadata.csv",
+        index: "hiddenapi/index.csv",
+        all_flags: "hiddenapi/all-flags.csv",
+    },
+}
+
+prebuilt_bootclasspath_fragment {
+    name: "com.android.mediaprovider-bootclasspath-fragment",
+    prefer: false,
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.mediaprovider"],
+    licenses: ["mediaprovider-module-sdk_packages_providers_MediaProvider_license"],
+    contents: ["framework-mediaprovider"],
+    hidden_api: {
+        max_target_o_low_priority: ["hiddenapi/hiddenapi-max-target-o-low-priority.txt"],
+        stub_flags: "hiddenapi/stub-flags.csv",
+        annotation_flags: "hiddenapi/annotation-flags.csv",
+        metadata: "hiddenapi/metadata.csv",
+        index: "hiddenapi/index.csv",
+        all_flags: "hiddenapi/all-flags.csv",
+    },
+}
+
 java_sdk_library_import {
     name: "mediaprovider-module-sdk_framework-mediaprovider@current",
     sdk_member_name: "framework-mediaprovider",
@@ -90,5 +124,6 @@ license {
 sdk_snapshot {
     name: "mediaprovider-module-sdk@current",
     visibility: ["//visibility:public"],
+    bootclasspath_fragments: ["mediaprovider-module-sdk_com.android.mediaprovider-bootclasspath-fragment@current"],
     java_sdk_libs: ["mediaprovider-module-sdk_framework-mediaprovider@current"],
 }
