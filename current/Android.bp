@@ -63,6 +63,7 @@ java_sdk_library_import {
     ],
     licenses: ["mediaprovider-module-sdk_packages_providers_MediaProvider_license@current"],
     shared_library: false,
+    permitted_packages: ["android.provider"],
     public: {
         jars: ["sdk_library/public/framework-mediaprovider-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-mediaprovider.srcjar"],
@@ -101,6 +102,7 @@ module_java_sdk_library_import {
     ],
     licenses: ["mediaprovider-module-sdk_packages_providers_MediaProvider_license"],
     shared_library: false,
+    permitted_packages: ["android.provider"],
     public: {
         jars: ["sdk_library/public/framework-mediaprovider-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-mediaprovider.srcjar"],
