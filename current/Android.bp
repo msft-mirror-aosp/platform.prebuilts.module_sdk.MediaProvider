@@ -33,7 +33,7 @@ prebuilt_bootclasspath_fragment {
 
 module_prebuilt_bootclasspath_fragment {
     name: "com.android.mediaprovider-bootclasspath-fragment",
-    prefer: false,
+    prefer: true,
     soong_config_variables: {
         module_build_from_source: {
             prefer: false,
@@ -89,7 +89,7 @@ java_sdk_library_import {
 
 module_java_sdk_library_import {
     name: "framework-mediaprovider",
-    prefer: false,
+    prefer: true,
     soong_config_variables: {
         module_build_from_source: {
             prefer: false,
