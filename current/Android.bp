@@ -56,6 +56,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/public/framework-mediaprovider.txt",
         removed_api: "sdk_library/public/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/public/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -63,6 +64,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/system/framework-mediaprovider.txt",
         removed_api: "sdk_library/system/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/system/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -70,6 +72,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/module-lib/framework-mediaprovider.txt",
         removed_api: "sdk_library/module-lib/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/module-lib/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
 }
@@ -90,6 +93,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/public/framework-mediaprovider.txt",
         removed_api: "sdk_library/public/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/public/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -97,6 +101,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/system/framework-mediaprovider.txt",
         removed_api: "sdk_library/system/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/system/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -104,6 +109,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-mediaprovider.srcjar"],
         current_api: "sdk_library/module-lib/framework-mediaprovider.txt",
         removed_api: "sdk_library/module-lib/framework-mediaprovider-removed.txt",
+        annotations: "sdk_library/module-lib/framework-mediaprovider_annotations.zip",
         sdk_version: "module_current",
     },
 }
