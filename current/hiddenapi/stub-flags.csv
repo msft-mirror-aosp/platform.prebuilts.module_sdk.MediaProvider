@@ -1,5 +1,6 @@
 Landroid/provider/Column;->readOnly()Z
 Landroid/provider/Column;->value()I
+Landroid/provider/ExportedSince;->osVersion()I
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ART:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ID:Ljava/lang/String;,public-api,system-api,test-api
