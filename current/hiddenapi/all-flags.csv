@@ -1,6 +1,5 @@
 Landroid/provider/Column;->readOnly()Z,blocked
 Landroid/provider/Column;->value()I,blocked
-Landroid/provider/ExportedSince;->osVersion()I,blocked
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ART:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -342,7 +341,6 @@ Landroid/provider/MediaStore;->CREATE_DELETE_REQUEST_CALL:Ljava/lang/String;,blo
 Landroid/provider/MediaStore;->CREATE_FAVORITE_REQUEST_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->CREATE_TRASH_REQUEST_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->CREATE_WRITE_REQUEST_CALL:Ljava/lang/String;,blocked
-Landroid/provider/MediaStore;->DEFAULT_USER_ID:I,blocked
 Landroid/provider/MediaStore;->EXTERNAL_STORAGE_PROVIDER_AUTHORITY:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->EXTRA_ACCEPT_ORIGINAL_MEDIA_FORMAT:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->EXTRA_BRIGHTNESS:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -376,6 +374,7 @@ Landroid/provider/MediaStore;->FINISH_LEGACY_MIGRATION_CALL:Ljava/lang/String;,b
 Landroid/provider/MediaStore;->GET_DOCUMENT_URI_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->GET_GENERATION_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->GET_MEDIA_URI_CALL:Ljava/lang/String;,blocked
+Landroid/provider/MediaStore;->GET_ORIGINAL_MEDIA_FORMAT_FILE_DESCRIPTOR_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->GET_REDACTED_MEDIA_URI_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->GET_REDACTED_MEDIA_URI_LIST_CALL:Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->GET_VERSION_CALL:Ljava/lang/String;,blocked
@@ -441,16 +440,11 @@ Landroid/provider/MediaStore;->getRecentExternalVolumeNames(Landroid/content/Con
 Landroid/provider/MediaStore;->getRedactedUri(Landroid/content/ContentResolver;Landroid/net/Uri;)Landroid/net/Uri;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->getRedactedUri(Landroid/content/ContentResolver;Ljava/util/List;)Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->getRequireOriginal(Landroid/net/Uri;)Z,public-api,sdk,system-api,test-api
-Landroid/provider/MediaStore;->getUserIdFromUri(Landroid/net/Uri;)I,blocked
 Landroid/provider/MediaStore;->getVersion(Landroid/content/Context;)Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->getVersion(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->getVolumeName(Landroid/net/Uri;)Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->getVolumeName(Ljava/io/File;)Ljava/lang/String;,blocked
 Landroid/provider/MediaStore;->isCurrentSystemGallery(Landroid/content/ContentResolver;ILjava/lang/String;)Z,public-api,sdk,system-api,test-api
-Landroid/provider/MediaStore;->maybeAddUserId(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;,blocked
-Landroid/provider/MediaStore;->maybeAddUserId(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;,blocked
-Landroid/provider/MediaStore;->maybeRemoveUserId(Landroid/net/Uri;)Landroid/net/Uri;,blocked
-Landroid/provider/MediaStore;->maybeRemoveUserId(Ljava/util/List;)Ljava/util/List;,blocked
 Landroid/provider/MediaStore;->resolvePlaylistMembers(Landroid/content/ContentResolver;Landroid/net/Uri;)V,blocked
 Landroid/provider/MediaStore;->rewriteToLegacy(Landroid/net/Uri;)Landroid/net/Uri;,sdk,system-api,test-api
 Landroid/provider/MediaStore;->runIdleMaintenance(Landroid/content/ContentResolver;)V,blocked
@@ -460,5 +454,4 @@ Landroid/provider/MediaStore;->setIncludePending(Landroid/net/Uri$Builder;)Landr
 Landroid/provider/MediaStore;->setIncludePending(Landroid/net/Uri;)Landroid/net/Uri;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->setRequireOriginal(Landroid/net/Uri;)Landroid/net/Uri;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->startLegacyMigration(Landroid/content/ContentResolver;Ljava/lang/String;)V,blocked
-Landroid/provider/MediaStore;->verifyUrisBelongToSingleUserId(Ljava/util/List;)V,blocked
 Landroid/provider/MediaStore;->waitForIdle(Landroid/content/ContentResolver;)V,sdk,system-api,test-api
