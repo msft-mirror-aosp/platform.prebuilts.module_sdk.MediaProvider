@@ -52,10 +52,12 @@ Landroid/provider/CloudMediaProviderContract$MediaCollectionInfo;->LAST_MEDIA_SY
 Landroid/provider/CloudMediaProviderContract$MediaCollectionInfo;->MEDIA_COLLECTION_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->DATE_TAKEN_MILLIS:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->DURATION_MILLIS:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/CloudMediaProviderContract$MediaColumns;->HEIGHT:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->IS_FAVORITE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->MEDIA_STORE_URI:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->MIME_TYPE:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/CloudMediaProviderContract$MediaColumns;->ORIENTATION:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->SIZE_BYTES:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->STANDARD_MIME_TYPE_EXTENSION:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->STANDARD_MIME_TYPE_EXTENSION_ANIMATED_WEBP:I,public-api,sdk,system-api,test-api
@@ -63,6 +65,7 @@ Landroid/provider/CloudMediaProviderContract$MediaColumns;->STANDARD_MIME_TYPE_E
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->STANDARD_MIME_TYPE_EXTENSION_MOTION_PHOTO:I,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->STANDARD_MIME_TYPE_EXTENSION_NONE:I,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract$MediaColumns;->SYNC_GENERATION:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/CloudMediaProviderContract$MediaColumns;->WIDTH:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_ALBUM_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_LOOPING_PLAYBACK_ENABLED:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_MEDIA_COLLECTION_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -318,8 +321,11 @@ Landroid/provider/MediaStore$PickerMediaColumns;->DATA:Ljava/lang/String;,public
 Landroid/provider/MediaStore$PickerMediaColumns;->DATE_TAKEN:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$PickerMediaColumns;->DISPLAY_NAME:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$PickerMediaColumns;->DURATION_MILLIS:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/MediaStore$PickerMediaColumns;->HEIGHT:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$PickerMediaColumns;->MIME_TYPE:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/MediaStore$PickerMediaColumns;->ORIENTATION:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$PickerMediaColumns;->SIZE:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/MediaStore$PickerMediaColumns;->WIDTH:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Video$Media;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Video$Media;->CONTENT_TYPE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Video$Media;->DEFAULT_SORT_ORDER:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -375,6 +381,7 @@ Landroid/provider/MediaStore;->ACTION_PICK_IMAGES:Ljava/lang/String;,public-api,
 Landroid/provider/MediaStore;->ACTION_PICK_IMAGES_SETTINGS:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_REVIEW:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_REVIEW_SECURE:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/MediaStore;->ACTION_USER_SELECT_IMAGES_FOR_APP:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_VIDEO_CAPTURE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->AUTHORITY:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore;->AUTHORITY_LEGACY:Ljava/lang/String;,sdk,system-api,test-api
