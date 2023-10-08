@@ -69,6 +69,7 @@ Landroid/provider/CloudMediaProviderContract$MediaColumns;->WIDTH:Ljava/lang/Str
 Landroid/provider/CloudMediaProviderContract;->EXTRA_ALBUM_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_LOOPING_PLAYBACK_ENABLED:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_MEDIA_COLLECTION_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/provider/CloudMediaProviderContract;->EXTRA_PAGE_SIZE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_PAGE_TOKEN:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_PREVIEW_THUMBNAIL:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/CloudMediaProviderContract;->EXTRA_SURFACE_CONTROLLER_AUDIO_MUTE_ENABLED:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -87,6 +88,7 @@ Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Default;->asBinder()Lan
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
+Landroid/provider/MediaStore$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ART:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ID:Ljava/lang/String;,public-api,sdk,system-api,test-api
