@@ -352,7 +352,6 @@ Landroid/provider/MediaStore;->ACTION_PICK_IMAGES:Ljava/lang/String;,public-api,
 Landroid/provider/MediaStore;->ACTION_PICK_IMAGES_SETTINGS:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_REVIEW:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_REVIEW_SECURE:Ljava/lang/String;,public-api,system-api,test-api
-Landroid/provider/MediaStore;->ACTION_USER_SELECT_IMAGES_FOR_APP:Ljava/lang/String;,system-api,test-api
 Landroid/provider/MediaStore;->ACTION_VIDEO_CAPTURE:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->AUTHORITY:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore;->AUTHORITY_LEGACY:Ljava/lang/String;,system-api,test-api
