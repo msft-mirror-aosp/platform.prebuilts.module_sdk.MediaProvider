@@ -88,7 +88,6 @@ Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Default;->asBinder()Lan
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/provider/ICloudMediaSurfaceStateChangedCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Landroid/provider/MediaStore$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ART:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/provider/MediaStore$Audio$AlbumColumns;->ALBUM_ID:Ljava/lang/String;,public-api,system-api,test-api
