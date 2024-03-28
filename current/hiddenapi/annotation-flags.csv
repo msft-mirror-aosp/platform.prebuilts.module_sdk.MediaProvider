@@ -1,3 +1,13 @@
+Landroid/graphics/pdf/PdfRenderer;->doClose()V,max-target-r
+Landroid/graphics/pdf/PdfRenderer;->mCurrentPage:Landroid/graphics/pdf/PdfRenderer$Page;,max-target-r
+Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enableFormFilling()Z,unsupported
+Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enablePdfViewer()Z,unsupported
+Landroid/graphics/pdf/flags/FeatureFlags;->enableFormFilling()Z,unsupported
+Landroid/graphics/pdf/flags/FeatureFlags;->enablePdfViewer()Z,unsupported
+Landroid/graphics/pdf/flags/FeatureFlagsImpl;->enableFormFilling()Z,unsupported
+Landroid/graphics/pdf/flags/FeatureFlagsImpl;->enablePdfViewer()Z,unsupported
+Landroid/graphics/pdf/flags/Flags;->enableFormFilling()Z,unsupported
+Landroid/graphics/pdf/flags/Flags;->enablePdfViewer()Z,unsupported
 Landroid/provider/MediaStore$Files$FileColumns;->FORMAT:Ljava/lang/String;,unsupported
 Landroid/provider/MediaStore$Files$FileColumns;->STORAGE_ID:Ljava/lang/String;,max-target-r
 Landroid/provider/MediaStore$Files;->getMtpObjectsUri(Ljava/lang/String;)Landroid/net/Uri;,unsupported

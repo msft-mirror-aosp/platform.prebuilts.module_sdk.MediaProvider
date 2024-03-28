@@ -12,6 +12,16 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+apex_contributions_defaults {
+    name: "mediaprovider-module-sdk.contributions",
+    contents: [
+        "prebuilt_media-provider-platform-compat-config",
+        "prebuilt_framework-mediaprovider",
+        "prebuilt_framework-pdf",
+        "prebuilt_framework-pdf-v",
+    ],
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.mediaprovider-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
@@ -22,7 +32,11 @@ prebuilt_bootclasspath_fragment {
     visibility: ["//visibility:public"],
     apex_available: ["com.android.mediaprovider"],
     licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
-    contents: ["framework-mediaprovider"],
+    contents: [
+        "framework-mediaprovider",
+        "framework-pdf",
+        "framework-pdf-v",
+    ],
     fragments: [
         {
             apex: "com.android.art",
@@ -89,6 +103,82 @@ java_sdk_library_import {
         current_api: "sdk_library/module-lib/framework-mediaprovider.txt",
         removed_api: "sdk_library/module-lib/framework-mediaprovider-removed.txt",
         annotations: "sdk_library/module-lib/framework-mediaprovider_annotations.zip",
+        sdk_version: "module_current",
+    },
+}
+
+java_sdk_library_import {
+    name: "framework-pdf",
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
+    use_source_config_var: {
+        config_namespace: "mediaprovider_module",
+        var_name: "source_build",
+    },
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.mediaprovider"],
+    licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
+    shared_library: false,
+    permitted_packages: ["android.graphics.pdf"],
+    public: {
+        jars: ["sdk_library/public/framework-pdf-stubs.jar"],
+        stub_srcs: ["sdk_library/public/framework-pdf.srcjar"],
+        current_api: "sdk_library/public/framework-pdf.txt",
+        removed_api: "sdk_library/public/framework-pdf-removed.txt",
+        annotations: "sdk_library/public/framework-pdf_annotations.zip",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["sdk_library/system/framework-pdf-stubs.jar"],
+        stub_srcs: ["sdk_library/system/framework-pdf.srcjar"],
+        current_api: "sdk_library/system/framework-pdf.txt",
+        removed_api: "sdk_library/system/framework-pdf-removed.txt",
+        annotations: "sdk_library/system/framework-pdf_annotations.zip",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["sdk_library/module-lib/framework-pdf-stubs.jar"],
+        stub_srcs: ["sdk_library/module-lib/framework-pdf.srcjar"],
+        current_api: "sdk_library/module-lib/framework-pdf.txt",
+        removed_api: "sdk_library/module-lib/framework-pdf-removed.txt",
+        annotations: "sdk_library/module-lib/framework-pdf_annotations.zip",
+        sdk_version: "module_current",
+    },
+}
+
+java_sdk_library_import {
+    name: "framework-pdf-v",
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "mediaprovider_module" is true.
+    use_source_config_var: {
+        config_namespace: "mediaprovider_module",
+        var_name: "source_build",
+    },
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.mediaprovider"],
+    licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
+    shared_library: false,
+    permitted_packages: ["android.graphics.pdf"],
+    public: {
+        jars: ["sdk_library/public/framework-pdf-v-stubs.jar"],
+        stub_srcs: ["sdk_library/public/framework-pdf-v.srcjar"],
+        current_api: "sdk_library/public/framework-pdf-v.txt",
+        removed_api: "sdk_library/public/framework-pdf-v-removed.txt",
+        annotations: "sdk_library/public/framework-pdf-v_annotations.zip",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["sdk_library/system/framework-pdf-v-stubs.jar"],
+        stub_srcs: ["sdk_library/system/framework-pdf-v.srcjar"],
+        current_api: "sdk_library/system/framework-pdf-v.txt",
+        removed_api: "sdk_library/system/framework-pdf-v-removed.txt",
+        annotations: "sdk_library/system/framework-pdf-v_annotations.zip",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["sdk_library/module-lib/framework-pdf-v-stubs.jar"],
+        stub_srcs: ["sdk_library/module-lib/framework-pdf-v.srcjar"],
+        current_api: "sdk_library/module-lib/framework-pdf-v.txt",
+        removed_api: "sdk_library/module-lib/framework-pdf-v-removed.txt",
+        annotations: "sdk_library/module-lib/framework-pdf-v_annotations.zip",
         sdk_version: "module_current",
     },
 }
