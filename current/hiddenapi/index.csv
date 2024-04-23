@@ -1,6 +1,6 @@
 signature,file,startline,startcol,endline,endcol,properties
-Landroid/graphics/pdf/PdfRenderer;->mCurrentPage:Landroid/graphics/pdf/PdfRenderer$Page;,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,150,5,150,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/graphics/pdf/PdfRenderer;->doClose()V,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,394,5,394,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/graphics/pdf/PdfRenderer;->mCurrentPage:Landroid/graphics/pdf/PdfRenderer$Page;,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,144,5,144,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/graphics/pdf/PdfRenderer;->doClose()V,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,372,5,372,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enableFormFilling()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/FakeFeatureFlagsImpl.java,18,5,18,25,
 Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enablePdfViewer()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/FakeFeatureFlagsImpl.java,24,5,24,25,
 Landroid/graphics/pdf/flags/FeatureFlags;->enableFormFilling()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/FeatureFlags.java,8,5,8,25,
