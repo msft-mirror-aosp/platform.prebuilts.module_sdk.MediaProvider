@@ -1,8 +1,7 @@
 signature,maxTargetSdk,trackingBug
 |Landroid/graphics/pdf/PdfRenderer;->doClose()V|,|30|,|170729553|
-|Landroid/graphics/pdf/PdfRenderer;->mCurrentPage:Landroid/graphics/pdf/PdfRenderer$Page;|,|30|,|170729553|
-|Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enableFormFilling()Z|,||,||
-|Landroid/graphics/pdf/flags/FakeFeatureFlagsImpl;->enablePdfViewer()Z|,||,||
+|Landroid/graphics/pdf/flags/CustomFeatureFlags;->enableFormFilling()Z|,||,||
+|Landroid/graphics/pdf/flags/CustomFeatureFlags;->enablePdfViewer()Z|,||,||
 |Landroid/graphics/pdf/flags/FeatureFlags;->enableFormFilling()Z|,||,||
 |Landroid/graphics/pdf/flags/FeatureFlags;->enablePdfViewer()Z|,||,||
 |Landroid/graphics/pdf/flags/FeatureFlagsImpl;->enableFormFilling()Z|,||,||
