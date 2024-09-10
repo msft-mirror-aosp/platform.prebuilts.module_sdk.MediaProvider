@@ -14,6 +14,7 @@ apex_contributions_defaults {
         "prebuilt_framework-mediaprovider",
         "prebuilt_framework-pdf",
         "prebuilt_framework-pdf-v",
+        "prebuilt_framework-photopicker",
     ],
 }
 
@@ -26,6 +27,7 @@ prebuilt_bootclasspath_fragment {
         "framework-mediaprovider",
         "framework-pdf",
         "framework-pdf-v",
+        "framework-photopicker",
     ],
     fragments: [
         {
@@ -156,6 +158,42 @@ java_sdk_library_import {
         current_api: "sdk_library/module-lib/framework-pdf-v.txt",
         removed_api: "sdk_library/module-lib/framework-pdf-v-removed.txt",
         annotations: "sdk_library/module-lib/framework-pdf-v_annotations.zip",
+        sdk_version: "module_current",
+    },
+}
+
+java_sdk_library_import {
+    name: "framework-photopicker",
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.mediaprovider"],
+    licenses: ["mediaprovider-module-sdk_Android-Apache-2.0"],
+    shared_library: false,
+    permitted_packages: [
+        "android.widget.photopicker",
+        "com.android.providers.media.flags",
+    ],
+    public: {
+        jars: ["sdk_library/public/framework-photopicker-stubs.jar"],
+        stub_srcs: ["sdk_library/public/framework-photopicker.srcjar"],
+        current_api: "sdk_library/public/framework-photopicker.txt",
+        removed_api: "sdk_library/public/framework-photopicker-removed.txt",
+        annotations: "sdk_library/public/framework-photopicker_annotations.zip",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["sdk_library/system/framework-photopicker-stubs.jar"],
+        stub_srcs: ["sdk_library/system/framework-photopicker.srcjar"],
+        current_api: "sdk_library/system/framework-photopicker.txt",
+        removed_api: "sdk_library/system/framework-photopicker-removed.txt",
+        annotations: "sdk_library/system/framework-photopicker_annotations.zip",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["sdk_library/module-lib/framework-photopicker-stubs.jar"],
+        stub_srcs: ["sdk_library/module-lib/framework-photopicker.srcjar"],
+        current_api: "sdk_library/module-lib/framework-photopicker.txt",
+        removed_api: "sdk_library/module-lib/framework-photopicker-removed.txt",
+        annotations: "sdk_library/module-lib/framework-photopicker_annotations.zip",
         sdk_version: "module_current",
     },
 }
