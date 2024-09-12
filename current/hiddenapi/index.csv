@@ -1,5 +1,5 @@
 signature,file,startline,startcol,endline,endcol,properties
-Landroid/graphics/pdf/PdfRenderer;->doClose()V,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,386,5,386,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/graphics/pdf/PdfRenderer;->doClose()V,packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java,370,5,370,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/graphics/pdf/flags/CustomFeatureFlags;->enableFormFilling()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/CustomFeatureFlags.java,21,5,21,25,
 Landroid/graphics/pdf/flags/CustomFeatureFlags;->enablePdfViewer()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/CustomFeatureFlags.java,28,5,28,25,
 Landroid/graphics/pdf/flags/FeatureFlags;->enableFormFilling()Z,out/soong/.intermediates/packages/providers/MediaProvider/pdf/framework/pdf_viewer_flags_java_lib/android_common_apex30/javac/srcjars/android/graphics/pdf/flags/FeatureFlags.java,9,5,9,25,
