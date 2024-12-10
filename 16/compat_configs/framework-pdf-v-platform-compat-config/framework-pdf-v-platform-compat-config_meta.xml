@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<config>
-  <compat-change enableAfterTargetSdk="34" id="345564691" name="RENDER_PDF_FORM_FIELDS">
-    <meta-data definedIn="android.graphics.pdf.PdfRenderer" sourcePosition="packages/providers/MediaProvider/pdf/framework-v/java/android/graphics/pdf/PdfRenderer.java:156" />
-  </compat-change>
-</config>
